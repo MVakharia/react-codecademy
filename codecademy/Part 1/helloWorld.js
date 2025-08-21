@@ -25,6 +25,8 @@ const myDiv = (<div>
 </div>
 );
 
+export default { h1, article, p1, p2 };
+
 
 
 
