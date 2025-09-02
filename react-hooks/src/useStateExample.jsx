@@ -2,6 +2,8 @@ import React, {useState} from "react";
 
 export function Toggle () {
 
+    //Destructures 'useState()' into the value and the function that it returns,
+    //so that we can use that value and that function within this function component.
     const [toggle, setToggle] = useState();
 
     return (
@@ -86,6 +88,33 @@ export function LiveInput() {
           <p>You typed: {input}</p>
       </div>
     );
+}
+
+export function EmailTextInput () {
+    const [email, setEmail] = useState('');
+
+    const handleChange = (event) => {
+        const updatedEmail = event.target.value;
+        setEmail(updatedEmail);
+    }
+
+    return(
+      <input value={email} onChange={handleChange} />
+    );
+}
+
+export function Counter() {
+    const [count, setCount] = useState(0);
+
+    const increment = () => setCount(prevCount => prevCount + 1);
+
+    return (
+        <div>
+            <p>Wow, you've clicked that button {count} times!</p>
+
+            <button onClick={increment}>Click here!</button>
+        </div>
+    )
 }
 
 
