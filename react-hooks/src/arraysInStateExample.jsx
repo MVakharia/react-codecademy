@@ -24,6 +24,29 @@ export function PersonalPizza () {
 
                 return [clickedTopping, ...prev];
             }
-        })
-    }
+        });
+    };
+
+    return (
+
+        <div>
+
+            {options.map(option => (
+
+                <button value={option} onClick={toggleTopping} key={option}>
+
+                    {selected.includes(option) ? 'Remove' : 'Add'}
+
+                    {option}
+
+                </button>
+
+            ))}
+
+            <p>Order a {selected.join(', ')} pizza</p>
+
+        </div>
+
+    )
+
 }
