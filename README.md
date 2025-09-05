@@ -17,3 +17,4 @@
 - The difference between ```increment(num + 1)``` and ```increment((prev) => prev + 1)```.
 - The second argument passed to useEffect is used to decide when, and how many times, React calls our effect.
 - Spread syntax (...).
+- Build the Passing Thoughts application off-platform using this tutorial: https://www.youtube.com/watch?v=_FuKzvavcAI. 
