@@ -16,3 +16,4 @@
 - Do the same but with an populated dependency array, and then the same again with an undefined dependency array. 
 - The difference between ```increment(num + 1)``` and ```increment((prev) => prev + 1)```.
 - The second argument passed to useEffect is used to decide when, and how many times, React calls our effect.
+- Spread syntax (...).
