@@ -15,3 +15,4 @@
 - Write an effect with an empty dependency array as the second argument, and observe the outcome. An empty dependency array signals to React that the effect need only be called once. 
 - Do the same but with an populated dependency array, and then the same again with an undefined dependency array. 
 - The difference between ```increment(num + 1)``` and ```increment((prev) => prev + 1)```.
+- The second argument passed to useEffect is used to decide when React calls our effect. 
