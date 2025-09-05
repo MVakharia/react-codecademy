@@ -18,3 +18,7 @@
 - The second argument passed to useEffect is used to decide when, and how many times, React calls our effect.
 - Spread syntax (...).
 - Build the Passing Thoughts application off-platform using this tutorial: https://www.youtube.com/watch?v=_FuKzvavcAI. 
+
+### Programming Patterns
+
+- Using object destructuring to extract props in a functional component. 
