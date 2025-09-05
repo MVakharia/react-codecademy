@@ -14,4 +14,4 @@
 - Look up what it means to mount and unmount a function component.
 - Write an effect with an empty dependency array as the second argument, and observe the outcome.
 - Do the same but with an populated dependency array, and then the same again with an undefined dependency array. 
-- The difference between ```increment(num + 1)``` and ```increment((prev) => prev + 1```.
+- The difference between ```increment(num + 1)``` and ```increment((prev) => prev + 1)```.
