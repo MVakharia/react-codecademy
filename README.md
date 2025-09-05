@@ -4,4 +4,4 @@
 
 ## Study topics list:
 
-- Separate hooks for separate effects (separation of concerns: make sure that one useEffect() isn't handling too much. 
+- Separate hooks for separate effects. Separation of concerns: make sure that you use one useEffect() per useState(), and if a single useEffect is handling an object with multiple unrelated key-value pairs, split the useEffect into multiple useEffects. 
