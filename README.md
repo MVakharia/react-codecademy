@@ -25,7 +25,13 @@
 - Pass a change handler function as a prop.
 - Build the 'Cute Guinea Pigs' React application (https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-react-programming-patterns/lessons/react-programming-patterns/exercises/reactive-programming-patterns-review) off-platform, refactor and annotate it, and create your own version from scratch.
 - Pass arguments to an event handler in a component when a button is clicked.
-- Build the 'Video Player' application (https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-react-programming-patterns/projects/video-player) off-platform, refactory and annotate it, and create your own version from scratch. 
+- Build the 'Video Player' application (https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-react-programming-patterns/projects/video-player) off-platform, refactory and annotate it, and create your own version from scratch.
+
+### Styling React Apps
+
+- The double curly braces of an inline style and what the outer and inner curly braces mean.
+- Storing a style object in a JavaScript variable instead of in a CSS file.
+    - This will allow you to include small amounts of styling within the JSX files that rewquire those styles, instead of using dedicated stylesheets.
 
 ## Rules
 
