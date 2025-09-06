@@ -30,8 +30,9 @@
 ### Styling React Apps
 
 - The double curly braces of an inline style and what the outer and inner curly braces mean.
-- Storing a style object in a JavaScript variable instead of in a CSS file.
-    - This will allow you to include small amounts of styling within the JSX files that rewquire those styles, instead of using dedicated stylesheets.
+- Storing a style object in a JavaScript variable and injecting the object into JSX, instead of placing the styles in a CSS file and importing the CSS file. 
+    - This will allow you to include small amounts of styling within the JSX files that require those styles, instead of using dedicated stylesheets.
+- CSS modules and importing CSS as a module with ```fileName.module.css```.
 
 ## Rules
 
