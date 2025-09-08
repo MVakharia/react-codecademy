@@ -2,9 +2,18 @@
 
 ### A repository for React projects I've completed as part of the Full-Stack Engineer course on Codecademy and in my spare time. 
 
-## Study topics list:
+## Rules
 
-### useState and useEffect:
+-  React function components should never directly update their props.
+-  A presentational component has only one job: to display a component.
+
+## Further reading
+
+- https://react.dev/learn/sharing-state-between-components#controlled-and-uncontrolled-components
+
+## Study topics list
+
+### useState and useEffect
 
 - Separate hooks for separate effects. Separation of concerns: make sure that you use one useEffect() per useState(), and if a single useEffect is handling an object with multiple unrelated key-value pairs, split the useEffect into multiple useEffects.
 - Write an effect that manages a timer.
@@ -45,9 +54,6 @@
 - An ```Input``` function component that makes use of ```const [userInput, setUserInput] = useState('');``` and a function named ```handleUserInput```.
 - Write a form that show the user their input as they write it.
 - Controlled components and uncontrolled components. 
-
-## Rules
-
--  React function components should never directly update their props.
--  A presentational component has only one job: to display a component.
 -  An initialization of ```state``` using the ```useState``` hook is a necessary part of any 'stateful' component.
+- The difference between controlled components and uncontrolled components.
+- When you give an ```<input>``` element a ```value``` attribute, the ```<input>``` element becomes controlled. 
