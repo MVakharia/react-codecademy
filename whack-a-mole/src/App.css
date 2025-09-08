@@ -1,0 +1,5 @@
+#mole-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 330px;
+}
