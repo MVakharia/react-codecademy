@@ -33,7 +33,8 @@
 - Storing a style object in a JavaScript variable and injecting the object into JSX, instead of placing the styles in a CSS file and importing the CSS file. 
     - This will allow you to include small amounts of styling within the JSX files that require those styles, instead of using dedicated stylesheets.
 - CSS modules and importing CSS as a module with ```fileName.module.css```, ```import styles from './fileName.module.css'```, and ```<div className={styles.divStyle}></div>```.
-- In React, a style value of type ```number``` is automatically interpreted with ```px```. For example, ```fontSize: 20``` is interpreted as ```font-size: 20px``` when the JS is converted to CSS. 
+- In React, a style value of type ```number``` is automatically interpreted with ```px```. For example, ```fontSize: 20``` is interpreted as ```font-size: 20px``` when the JS is converted to CSS.
+- Complete the extra credit exercise, 'Bread First Search', at https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-intermediate-react/lessons/react-style/exercises/review.
 
 ## Rules
 
