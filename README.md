@@ -41,7 +41,10 @@
 
 - The difference between React forms and HTML forms.
 - How the onChange event triggers updates in a React form, such as when characters are entered or deleted.
-- Adding an input event handler to a form. 
+- Adding an input event handler to a form.
+- An ```Input``` function component that makes use of ```const [userInput, setUserInput] = useState('');``` and a function named ```handleUserInput```.
+- Write a form that show the user their input as they write it.
+- Controlled components and uncontrolled components. 
 
 ## Rules
 
