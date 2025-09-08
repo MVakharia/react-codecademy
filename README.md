@@ -41,7 +41,7 @@
 
 - The difference between React forms and HTML forms.
 - How the onChange event triggers updates in a React form, such as when characters are entered or deleted.
-- 
+- Adding an input event handler to a form. 
 
 ## Rules
 
