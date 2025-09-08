@@ -34,7 +34,14 @@
     - This will allow you to include small amounts of styling within the JSX files that require those styles, instead of using dedicated stylesheets.
 - CSS modules and importing CSS as a module with ```fileName.module.css```, ```import styles from './fileName.module.css'```, and ```<div className={styles.divStyle}></div>```.
 - In React, a style value of type ```number``` is automatically interpreted with ```px```. For example, ```fontSize: 20``` is interpreted as ```font-size: 20px``` when the JS is converted to CSS.
-- Complete the extra credit exercise, 'Bread First Search', at https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-intermediate-react/lessons/react-style/exercises/review.
+- Complete the extra credit exercise, 'Bread First Search', at https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-intermediate-react/lessons/react-style/exercises/review, off-platform, then refactor it, annotate it, and extend it. 
+- Complete the exercise 'Styling Rock, Paper, Scissors' at https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-intermediate-react/projects/styling-rock-paper-scissors off-platform, then refactor it, annotate it, and extend it. 
+
+### React Forms
+
+- The difference between React forms and HTML forms.
+- How the onChange event triggers updates in a React form, such as when characters are entered or deleted.
+- 
 
 ## Rules
 
