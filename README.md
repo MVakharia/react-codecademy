@@ -6,6 +6,7 @@
 
 -  React function components should never directly update their props.
 -  A presentational component has only one job: to display a component.
+-  An initialization of ```state``` using the ```useState``` hook is a necessary part of any 'stateful' component.
 
 ## Further reading
 
@@ -53,7 +54,17 @@
 - Adding an input event handler to a form.
 - An ```Input``` function component that makes use of ```const [userInput, setUserInput] = useState('');``` and a function named ```handleUserInput```.
 - Write a form that show the user their input as they write it.
-- Controlled components and uncontrolled components. 
--  An initialization of ```state``` using the ```useState``` hook is a necessary part of any 'stateful' component.
-- The difference between controlled components and uncontrolled components.
-- When you give an ```<input>``` element a ```value``` attribute, the ```<input>``` element becomes controlled. 
+- Controlled components and uncontrolled components, and the difference between them.
+- When you give an ```<input>``` element a ```value``` attribute, the ```<input>``` element becomes controlled.
+- Complete the extra-credit exercise available here: https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-intermediate-react/lessons/react-forms/exercises/review off-platform. 
+- Create a React form that receives a phone number and generates an Alert() telling the user that they're being sent a verification code. The form should have a label, an input field, and a 'submit' button. The input field should check each keystroke to ensure that it is a number. If it is, it should add the number to the input field. It should use ```!Number.isNaN()```. Then, as a bonus exercise, swap out the isNaN check for a regex check. 
+- How to create an uncontrolled component using ```useRef()```. 
+- ```useRef().current```.
+- Create the same phone number form with an uncontrolled component. It should validate that the input is all numbers but only after 'Submit' has been pressed. 
+- Practice drills with ```<HTMLInputElement```.
+- Why you must always used uncontrolled components when dealing with ```<input>``` form elements with the ```type="file"``` attribute. 
+
+
+### Uncontrolled Components
+
+- 
