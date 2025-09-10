@@ -63,7 +63,9 @@
 - Create the same phone number form with an uncontrolled component. It should validate that the input is all numbers but only after 'Submit' has been pressed. 
 - Practice drills with ```<HTMLInputElement```.
 - Why you must always used uncontrolled components when dealing with ```<input>``` form elements with the ```type="file"``` attribute. 
-
+- What is ```React.createRef()```?
+- Complete the Saucy Tango Food Order Form, available here: https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-intermediate-react/projects/saucy-tango-food-order-form, off-platform. 
+- Complete the Spotify Jamming project, available here: https://www.codecademy.com/paths/full-stack-engineer-career-path/tracks/fscp-22-react-part-ii/modules/wdcp-22-jammming/kanban_projects/jammming-react18, off-platform. 
 
 ### Uncontrolled Components
 
