@@ -1,42 +1,37 @@
 import React, {useState} from "react";
 import './App.css';
 
-import {MoleHole} from "./MoleHole.jsx";
+import {MoleBoard} from "./MoleBoard.jsx";
+import {CounterTimer} from "./CounterTimer.jsx";
+import {CountdownTimer} from "./CountdownTimer.jsx";
 
-const cells = 9;
-
-function MoleBoard (setScore) {
-    const holes = Array.from({length: cells});
-
-    console.log(holes);
-
-    return (
-        <div id="mole-board">
-
-            {/*
-                For each item in the array 'holes', render a 'MoleHole' component.
-                'key={index}' gives an index number to each MoleHole.
-                'setScore={setScore}' allows MoleHole to use the 'setScore'
-                function that is destructured in the App() function.
-            */}
-
-            {holes.map((_, index) => (
-                <MoleHole key={index} setScore={setScore} />
-            ))}
-        </div>
-    )
-}
+const styles = {
+    h1: {
+        textAlign:'center'
+    }
+};
 
 export const App = () => {
     const [score, setScore] = useState(0);
 
     return (
         <div className="App">
-            <h1>Whack-A-Mole</h1>
-            <h2>Score: {score}</h2>
+            <h1 style={styles.h1}>React games and applications</h1>
+
+            <h2>Whack-A-Mole</h2>
+
+            <h3>Score: {score}</h3>
 
             {MoleBoard(setScore)}
+
+            <h2>Basic counter timer</h2>
+
+            {CounterTimer()}
+
+            <h2>Basic countdown timer</h2>
+
+            {CountdownTimer()}
+
         </div>
     )
 }
-

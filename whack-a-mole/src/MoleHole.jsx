@@ -7,20 +7,20 @@ const chanceToAppear = 0.7;
 
 const moleTimeoutMS = 700;
 
-let randomizedChance = () => {
-    return Math.random() > chanceToAppear;
-}
+//This is a boolean function that returns 'true' if a randomly generated number is greater than the chance to appear.
+let randomizedChance = () => { return Math.random() > chanceToAppear; }
 
+//A hole that a mole will appear from. It generates moles.
 export const MoleHole = ({setScore}) => {
 
-    /*Destructuring useState.*/
+    /*Destructuring useState into a variable and a function that represent and change the visibility of each mole.*/
     const [isVisible, setVisibility] = useState(false);
 
+    //The effect hook. Sets up the mole hole's behaviour on game start.
     useEffect(() => {
 
-        /*Repeatedly calls the function 'setVisibility'
-        with an interval of 'moleTimeoutMS',
-        IF 'randomizedChance' is true.*/
+        /*IF 'randomizedChance' is true, this repeatedly calls the function 'setVisibility'
+        with an interval of 'moleTimeoutMS'.*/
         const interval = setInterval(() => {
 
             setVisibility(randomizedChance);
@@ -29,11 +29,16 @@ export const MoleHole = ({setScore}) => {
 
         return () => clearInterval(interval);
 
-    }, []);
+    },
+        //This empty array ensures that the useEffect() only runs once when the component mounts.
+        []);
+
 
     const handleWhack = () => {
+        //If there is no mole in the square, do nothing.
         if (!isVisible) return;
 
+        //Otherwise, increment the score by 1 and make the mole visible.
         setScore(prev => prev + 1);
         setVisibility(false);
 
